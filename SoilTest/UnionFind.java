@@ -1,8 +1,8 @@
 public interface UnionFind{
-
-     void union (Index2D p,Index2D q);
-     boolean connected(Index2D p,Index2D q);
-     Index2D find(Index2D p);
+     
+     void union (int p,int q);
+     boolean connected(int p,int q);
+     int find(int p);
 
 
 }
